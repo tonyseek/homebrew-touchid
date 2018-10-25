@@ -16,8 +16,8 @@ class PamReattach < Formula
     You will need to twist the file mode and owner of this PAM manually for
     protecting it from potential attackers:
 
-      sudo chmod 444 #{lib}/pam/pam_reattach.so
-      sudo chown root:wheel #{lib}/pam/pam_reattach.so
+      sudo chmod 444 #{HOMEBREW_PREFIX}/pam/pam_reattach.so
+      sudo chown root:wheel #{HOMEBREW_PREFIX}/pam/pam_reattach.so
 
     Then prepend it to /etc/pam.d/sudo that makes it work.
 
