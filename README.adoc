@@ -1,0 +1,9 @@
+= Touch ID utilities on Homebrew
+
+There are utilities for using Touch ID on macOS.
+
+== Installation
+
+----
+brew install tonyseek/touchid/pam-reattach
+----
